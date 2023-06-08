@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/survey-jquery"></script>
+
+    <link href="https://unpkg.com/survey-jquery/defaultV2.min.css" type="text/css" rel="stylesheet">
+
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/estilosOwn.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-scroll encuesta">
+        <div class="container">
+            <img src="https://mdbootstrap.com/img/Photos/new-templates/animal-shelter/logo.png" height="70" alt=""
+            loading="lazy" />
+          <button class="navbar-toggler ps-0" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarExample01"
+            aria-controls="navbarExample01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon d-flex justify-content-start align-items-center">
+              <i class="fas fa-bars"></i>
+            </span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarExample01">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="/">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="pagination/espapage.html">Español</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="pagination/geopage.html">Geografia</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="pagination/matepage.html">Matematicas</a>
+              </li>
+            </ul>
+      
+            <ul class="navbar-nav flex-row">
+              <li class="nav-item">
+                <a class="nav-link px-2" href="#!">
+                  <i class="fab fa-facebook-square"></i>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link px-2" href="#!">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ps-2" href="#!">
+                  <i class="fab fa-youtube"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="container">
+        <div id="surveyContainer"></div>
+      </div>
+      <div id="dispResults"></div>
+      <div id="grafica"></div>
+
+      <div class="container bg-body-tertiary">
+        <div class="bg-body-secondary cont_encabezado">
+          <h1 >EQ3 - HDNE</h1>
+          <h2>SISTEMA DE APRENDIZAJE PARA ALUMNOS CON TDAH EN UN APLICATIVO WEB ENFOCADO EN MATERIAS FUNDAMENTALES DE EDUCACIÓN BÁSICA</h2>
+        </div>
+        <div class="bg-light d-flex flex-row mb-2 align-self-center">
+          <img src="images/tdah.png" class="img-fluid" alt="problemas de aprendizaje en niños con tdah">
+          <p class="align-self-center fs-5 lh-sm mx-auto p-4">Se espera ofrecer una solución prometedora para abordar las necesidades educativas de los estudiantes con TDAH. Al aprovechar la tecnología web y las herramientas interactivas, este sistema puede proporcionar un entorno de aprendizaje adaptativo y personalizado, diseñado específicamente para ayudar a los estudiantes con TDAH a alcanzar su máximo potencial en las materias fundamentales de educación básica.
+          </p>
+        </div>
+        <div class="bg-light d-flex flex-row mb-2 align-self-center">
+          <p class="align-self-center fs-5 lh-sm mx-auto p-3">Esta plataforma actualmente ofrece cuatro materias: <span class="fw-semibold"> español, matemáticas, historia y geografía</span>. Contamos con una amplia base de datos de preguntas básicas previamente almacenadas, las cuales se presentan de manera aleatoria a los alumnos. Al responder estas preguntas, los estudiantes obtienen un puntaje que refleja su nivel de aprendizaje en cada materia. Esta evaluación nos permite conocer el progreso individual de cada alumno y determinar su nivel de conocimientos en las diferentes áreas académicas.
+          </p>
+          <img src="images/aprendizaje.png" alt="17 indicadires de la ONU">
+        </div>
+        <h3>INDICADORES ODS</h3>
+        <div class="bg-light d-flex flex-row mb-2 align-self-center">
+          <img src="images/indicadoresONU.png" class="img-fluid rounded-4" alt="17 indicadires de la ONU">
+          <p class="align-self-center fs-6 lh-sm mx-auto p-3">Nuestra tecnología tiene como objetivo abarcar y contribuir al cumplimiento del Objetivo 4 de la ONU, <span class="fw-bolder">Educación de calidad</span>: <span class="fw-semibold">Garantizar una educación inclusiva, equitativa y de calidad y promover oportunidades de aprendizaje durante toda la vida para todos.</span><br>Nuestro software se ha desarrollado pensando en las necesidades específicas de los niños con TDAH. Ofrecemos una plataforma interactiva con herramientas diseñadas para captar su atención, fomentar su participación y promover un aprendizaje efectivo. Se pretende trabajar en colaboración con expertos en TDAH para adaptar nuestros contenidos a las necesidades individuales de cada estudiante. Creemos en la igualdad de oportunidades educativas para todos los niños, por lo que nuestro software elimina barreras y ofrece un entorno seguro y estimulante centrado en las necesidades de los niños con TDAH.
+          </p>
+        </div>
+        
+      </div>
+      <footer>
+        
+      </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</html>
